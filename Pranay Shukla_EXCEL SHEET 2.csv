@@ -1,0 +1,36 @@
+,,,EXCEL SET 3,,,,,,,,,,
+,,,,,,,,,,,Questions,,
+Client ID,Client Name,Stock Symbol,Quantity,Purchase Price,Current Price,Portfolio Value,Investment Date,Investment Category,Profit/Loss %,,,,
+1,Rajesh Kumar,TCS,50,3000,3200,160000,15-Jan-24,Standard,6.67%,,"1. Use INDEX-MATCH to find the Stock Symbol for ""Vivek Gupta"". Why is INDEX-MATCH better than VLOOKUP?",RELIANCE,"VLOOKUP will only see the data which is left from lookup value column, while through INDEX-MATCH, we can get an output from anywhere from the data"
+2,Anjali Sharma,INFY,100,1500,1400,140000,22-Feb-24,Standard,-6.67%,,,,
+3,Vivek Gupta,RELIANCE,200,2000,2100,420000,10-Mar-24,Premium,5.00%,,"2.Calculate total Portfolio Value where Current Price > 1000.
+",2530750,
+4,Sneha Patel,HDFC,150,1800,1900,285000,05-Apr-24,Premium,5.56%,,,,
+5,Amit Rao,ICICIBANK,80,400,420,33600,18-Jan-24,Basic,5.00%,,"3.Create ""Investment Category"" column:
+
+""Premium"" if Portfolio Value > 200000 AND Quantity > 100
+""Standard"" if Portfolio Value > 100000 OR Quantity > 100
+""Basic"" otherwise",,
+6,Priya Mehta,WIPRO,120,500,490,58800,25-May-24,Standard,-2.00%,,,,
+7,Manish Agarwal,SBI,250,350,360,90000,12-Jun-24,Standard,2.86%,,"4.Calculate Profit/Loss % as: ((Current Price - Purchase Price) / Purchase Price) * 100
+Use IFERROR to return ""Invalid Data"" for errors.",,
+8,Kavita Joshi,HCLTECH,70,900,950,66500,30-Jul-24,Basic,5.56%,,,,
+9,Rohan Das,BHARTIARTL,60,650,700,42000,14-Aug-24,Basic,7.69%,,"5.Write a formula to clean "" tcs "" to ""TCS"" using TRIM and UPPER functions.",tcs,TCS
+10,Neha Verma,AXISBANK,90,700,720,64800,22-Sep-24,Basic,2.86%,,,,
+11,Suresh Iyer,TATAMOTORS,180,450,480,86400,05-Oct-23,Standard,6.67%,,"6.Create ""Investment Summary"" in format: ""[Name] holds [Qty] shares of [Symbol]""
+Example: ""Rajesh Kumar holds 50 shares of TCS""",Rajesh Kumar holds 50 shares ofTCS,
+12,Deepika Singh,ITC,300,280,320,96000,17-Nov-23,Standard,14.29%,,,,
+13,Arjun Reddy,ADANIPORTS,40,1200,1150,46000,28-Dec-23,Basic,-4.17%,,7.Calculate investment age in months from Investment Date to today (October 2025).,30,
+14,Meera Nair,BAJAJFINSV,25,5000,5200,130000,08-Jan-24,Standard,4.00%,,,,
+15,Karan Malhotra,MARUTI,35,8000,8500,297500,19-Feb-24,Standard,6.25%,,8.Count how many clients have Portfolio Value greater than 100000.,12,
+16,Pooja Desai,ULTRACEMCO,45,6500,6800,306000,03-Mar-24,Standard,4.62%,,,,
+17,Vikram Chopra,ASIANPAINT,80,2800,2900,232000,21-Apr-24,Standard,3.57%,,"9.Use VLOOKUP to get the Purchase Price for ""HDFC"" stock.
+",1800,HDFC
+18,Ritika Kapoor,TITAN,110,2200,2400,264000,15-May-24,Premium,9.09%,,10.Create a Pivot Table showing total Portfolio Value grouped by Stock Symbol.,,
+19,Sanjay Gupta,SUNPHARMA,140,900,950,133000,27-Jun-24,Standard,5.56%,,,,
+20,Divya Sharma,POWERGRID,200,180,200,40000,09-Jul-24,Standard,11.11%,,,,
+21,Rahul Khanna,TECHM,95,1100,1150,109250,18-Aug-24,Standard,4.55%,,,,
+22,Simran Kaur,COALINDIA,160,220,240,38400,02-Sep-24,Standard,9.09%,,,,
+23,Aditya Verma,ONGC,220,140,155,34100,20-Sep-24,Standard,10.71%,,,,
+24,Nisha Patel,BPCL,75,380,400,30000,11-Oct-23,Basic,5.26%,,,,
+25,Varun Kumar,DRREDDY,30,4500,4700,141000,26-Nov-23,Standard,4.44%,,,,
